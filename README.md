@@ -4,10 +4,10 @@ This project demonstrates how to link an AirTable to the Unity scene.
 The `ArtGallery` scene reads from the table [`Artists_small`](https://airtable.com/appV5LgA8wXE1FnXZ/tbl6BD4rsBZ4ma5nw/viwbGD5PDBeyGNfSO?blocks=hide) and shows all images with the author names 
 on play.
 
-![alt text](/screenshot/Capture.PNG)
+![alt text](/Screenshot/Capture.PNG)
 
 Updating the `Artist_small` table, such as deleting one row, will change the art gallery scenes when the user hits play next time.
-![alt text](/screenshot/CaptureAfter.PNG)
+![alt text](/Screenshot/CaptureAfter.PNG)
 
 ## 1. Configure to connect to Airtable
 * Inspect AirTableExamples object in the ArtGallery scene
