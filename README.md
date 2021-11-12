@@ -34,3 +34,7 @@ Make sure you follow the data field names in *2. Current data sheet structure* u
 * You can also create different Game Object Prefab to replace `Art Object` under `Get Record Examples` script of AirTableExamples.
 
 If you do either step above, you will need to make change in the DownloadImage function in the `GetRecordExamples.cs` script.
+
+
+## Credits
+The project is built upon lipemon1's Airtable Unity Plugin examples [here](https://github.com/lipemon1/airtableunity). Huge thanks for their contributions to the open-sourced community.
