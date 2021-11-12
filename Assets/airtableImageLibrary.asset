@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: airtableImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5718382580261684768
+  m_GuidHigh: 9631267245322441400
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5239176173871694070
+      m_GuidHigh: 770866728632246420
+    m_SerializedTextureGuid:
+      m_GuidLow: 784879344198688789
+      m_GuidHigh: 15555864422688252634
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: harvard_logo
+    m_Texture: {fileID: 0}
