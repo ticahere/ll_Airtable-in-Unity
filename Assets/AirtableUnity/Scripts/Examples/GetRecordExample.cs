@@ -59,10 +59,17 @@ public class GetRecordExample : MonoBehaviour
             Debug.Log(request.error);
         else
         {
-            GameObject art = Instantiate(artObject, new Vector3(artID * 3, 0, 0), Quaternion.identity);
+            //GameObject art = Instantiate(artObject, new Vector3(artID * 3, 0, 0), Quaternion.identity);
+            GameObject art = GameObject.FindGameObjectsWithTag("Art")[artID];
+            Debug.Log("art ID " + artID);
             art.GetComponent<Renderer>().material.mainTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
             art.transform.GetChild(0).GetComponent<TextMesh>().text = artName;
             art.name = artName;
+            art.GetComponent<Proximity>().newTitle = artName;
         }
+    }
+    public void CreateArt()
+    {
+
     }
 }

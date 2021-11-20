@@ -8,6 +8,7 @@ namespace AirtableUnity.PX.Model
         //public long Id { get; set; }
         public string[] Genre { get; set; }
         public string Bio { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public string url { get; set; }
     }
