@@ -57,6 +57,8 @@ If you do either step above, you will need to make change in the DownloadImage f
 3. Place each ArtObj at your desired place in the scene. You can add cube or plane as a wall to hang the ArtObj, or add lights to different place.
 4. Hit play. The art images and texts from Airtable should be automatically attached to the gallery you create!
  
+ Here is the example of `ArtGallery` scene.
+ ![alt text](/Screenshot/Gallery.PNG)
 
 ## Credits
 The project is built upon lipemon1's Airtable Unity Plugin examples [here](https://github.com/lipemon1/airtableunity). Huge thanks for their contributions to the open-sourced community.

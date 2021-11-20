@@ -67,7 +67,7 @@ public class GetAirtableRecord : MonoBehaviour
             GalleryArts = GameObject.FindGameObjectsWithTag("Art");
             Debug.Log("gallery art " + GalleryArts.Length);
             // set the art frame with texture
-            GameObject art = GalleryArts.Length> artID ? GalleryArts[artID - 1] : Instantiate(Artobj, new Vector3((artID-1) * 1.5f, 2, 5), Quaternion.identity);
+            GameObject art = GalleryArts.Length> (artID-1) ? GalleryArts[artID - 1] : Instantiate(Artobj, new Vector3((artID-1) * 1.5f, 2, 5), Quaternion.identity);
             art.name = artName;
             art.GetComponent<Renderer>().material.mainTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
             art.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text = artName;
