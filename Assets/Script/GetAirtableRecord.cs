@@ -12,6 +12,7 @@ public class GetAirtableRecord : MonoBehaviour
     public string TableName;
     public GameObject Artobj;
     public GameObject[] GalleryArts;
+    public bool autoGallery = true;
     private bool hasGet = false;
     public string[] RecordIdList;
     private string RecordId;
@@ -52,11 +53,11 @@ public class GetAirtableRecord : MonoBehaviour
         
         Debug.Log("[Airtable Unity] - Get Record: " + "\n" + msg);
         
-        StartCoroutine(DownloadImage(record?.fields.url, record?.fields.Name, Convert.ToInt32(record?.fields.ID), record?.fields.Bio));
+        StartCoroutine(DownloadImage(record?.fields.url, record?.fields.Name, Convert.ToInt32(record?.fields.ID), record?.fields.Bio, record?.fields.Subtitle));
         currentID += 1;
     }
 
-    IEnumerator DownloadImage(string MediaUrl, string artName, int artID, string artBio)
+    IEnumerator DownloadImage(string MediaUrl, string artName, int artID, string artBio, string artSubtitle)
     {
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(MediaUrl);
         yield return request.SendWebRequest();
@@ -65,13 +66,20 @@ public class GetAirtableRecord : MonoBehaviour
         else
         {
             GalleryArts = GameObject.FindGameObjectsWithTag("Art");
-            Debug.Log("gallery art " + GalleryArts.Length);
             // set the art frame with texture
-            GameObject art = GalleryArts.Length> (artID-1) ? GalleryArts[artID - 1] : Instantiate(Artobj, new Vector3((artID-1) * 1.5f, 2, 5), Quaternion.identity);
+            GameObject art;
+            if (autoGallery)
+            {
+                art = Instantiate(Artobj, new Vector3((artID - 1) * 1.5f, 2, 5), Quaternion.identity);
+            }
+            else
+            {
+                art = GalleryArts[artID - 1];
+            }
             art.name = artName;
             art.GetComponent<Renderer>().material.mainTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
             art.transform.GetChild(0).gameObject.GetComponent<TextMeshPro>().text = artName;
-            art.transform.GetChild(1).gameObject.GetComponent<TextMeshPro>().text = artID.ToString();
+            art.transform.GetChild(1).gameObject.GetComponent<TextMeshPro>().text = artSubtitle;
             art.transform.GetChild(2).gameObject.GetComponent<TextMeshPro>().text = artBio;
         }
     }

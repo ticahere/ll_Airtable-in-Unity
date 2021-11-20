@@ -503,26 +503,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 9036571079551460445, guid: 4d4c65d26243a96428bce81d3e30437b, type: 3}
   m_PrefabInstance: {fileID: 638094298}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &903167333 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5479759323465321152, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
-  m_PrefabInstance: {fileID: 1754235249}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &903167334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 903167333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9dccef38219d8b4990787f76b5674fe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  TableName: Artists_small
-  GalleryArts: []
-  RecordIdList: []
 --- !u!1 &965879342
 GameObject:
   m_ObjectHideFlags: 0
@@ -966,6 +946,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3171731968557677620, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
+      propertyPath: autoGallery
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5479759323465321152, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
       propertyPath: m_Name
       value: AirTableDB

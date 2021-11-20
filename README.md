@@ -17,12 +17,13 @@ Updating the `Artist_small` table, such as deleting one row, will change the art
 * Fill in the Table Name, `Artists_small` if you use the example base, or change to your Airtable base' sheet name, under `List Airtable Records` and `Get Airtable Record` script
 
 ## 2. Current data sheet structure
-Currently Unity program reads  four columns from the `Artists_small`, defined in `BaseField.cs` file.
+Currently Unity program reads  six columns from the `Artists_small`, defined in `BaseField.cs` file.
 1. `Genre`: multiple strings describing the genre of the art
 2. `Name`: name of the art or author
-3. `Bio`: bio of the art or author
-4. `url`: open link to the image
-5. `ID`: order of the art
+3. `Subtitle`: subtitle of the art
+4. `Bio`: bio of the art or author
+5. `url`: open link to the image
+6. `ID`: order of the art
 
 
 ## 3. Change to your own data sheet
@@ -55,7 +56,8 @@ If you do either step above, you will need to make change in the DownloadImage f
 1. Create an empty game object and name it "Gallery".
 2. Add multiple `Assets/Prefab/ArtObj.prefab` objects to the scene under Galery game object. The number of ArtObj should be the same as items in your Airtable.
 3. Place each ArtObj at your desired place in the scene. You can add cube or plane as a wall to hang the ArtObj, or add lights to different place.
-4. Hit play. The art images and texts from Airtable should be automatically attached to the gallery you create!
+4. Uncheck `Auto Gallery` for AirtableDB under `Get Airtable Record`.
+5. Hit play. The art images and texts from Airtable should be automatically attached to the gallery you create!
  
  Here is the example of `ArtGallery` scene.
  ![alt text](/Screenshot/Gallery.PNG)
