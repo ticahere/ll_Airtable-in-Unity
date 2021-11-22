@@ -1,4 +1,4 @@
-# LL_Airtable-in-Unity
+# ll_Airtable-in-Unity
 
 This project demonstrates how to link an AirTable to the Unity scene. 
 The `Virtual Art Gallery` scene reads from the Airtable base [`Artists_small`](https://airtable.com/appV5LgA8wXE1FnXZ/tbl6BD4rsBZ4ma5nw/viwbGD5PDBeyGNfSO?blocks=hide) and shows all images with the author names 
