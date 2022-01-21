@@ -42,7 +42,7 @@ If you do either step above, you will need to make change in the DownloadImage f
 
 ## Step by step guide to create your own Virtual Gallery with Airtable without writing any code
 1. Download this repository and unzip the folder.
-2. Open the project in Unity version 2021.5 or newer.
+2. Open the project in Unity version 2021.2.5f1 or newer.
 3. Create an empty scene.
 4. Create a floor by creating a Plane object.
 5. Add `Assets/Prefab/AirtableDB.prefab` to the scene.
