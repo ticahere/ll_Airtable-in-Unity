@@ -4,7 +4,17 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Virtual Art Gallery.unity
+    guid: e2952038cab910244b4bcc4d932501f6
+  - enabled: 1
+    path: Assets/VR Examples/Scenes/Grab Interaction.unity
+    guid: 5f957dda4b66f6249860b95eb2c5edf0
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9295d42cb9dce2f438815f02f1c7ddac, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 7b481119cddc71a418030940d08e069f, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: b0076e7ac6079434a954ccd7e18685a4, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 783e06595f801cb4693cbc8ae9b67d43, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e90fc7de5f2225e4ea79b96cbe9ade92, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ca44e15fc4b3527469e22f5ff566424d, type: 2}
