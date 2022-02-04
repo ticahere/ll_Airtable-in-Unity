@@ -1188,6 +1188,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2730837546054086008, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
+      propertyPath: TableName
+      value: Artist-list
+      objectReference: {fileID: 0}
+    - target: {fileID: 2730837546054086008, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
@@ -1195,6 +1199,10 @@ PrefabInstance:
       propertyPath: _ArtObj
       value: 
       objectReference: {fileID: 9036571079551460444, guid: 4d4c65d26243a96428bce81d3e30437b, type: 3}
+    - target: {fileID: 3171731968557677620, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
+      propertyPath: TableName
+      value: Artist-list
+      objectReference: {fileID: 0}
     - target: {fileID: 3171731968557677620, guid: 25c9147da6e4a4343b74864710b3f010, type: 3}
       propertyPath: _ArtLabel
       value: 
