@@ -4,12 +4,12 @@ This project demonstrates linking an AirTable data sheet to the Unity scene and 
 
 The `Virtual Art Gallery` scene reads from the Airtable data sheet [`Artists_small`](https://airtable.com/appV5LgA8wXE1FnXZ/tbl6BD4rsBZ4ma5nw/viwbGD5PDBeyGNfSO?blocks=hide) and shows all images with the title, subtitle, and bio on play.
 
-![airtable format](/Screenshot/artist_table.png)
+![Artists_small Table Columns](/Screenshot/artist_table.png)
 
-![art gallery](/Screenshot/Capture.PNG)
+![Art Virtual Gallery](/Screenshot/Capture.PNG)
 
 Updating the `Artist-list` table, such as deleting one row, will change the art gallery scenes when the user hits play next time.
-![art gallery-update](/Screenshot/CaptureAfter.PNG)
+![Art Virtual Gallery-update](/Screenshot/CaptureAfter.PNG)
 
 
 Tutorial Updated: `02/04/2022`
@@ -68,14 +68,14 @@ If you do either step above, you will need to make change in the DownloadImage f
  There are other examples provided under `Assets/Scenes` folder. You can also replace  `App Key`, `Api Key` and `Table name` in the AirTableDB object to link to your own dataset.
  * Projects Showcase - This scene shows an example of an interactive project showroom. An Airtable data sheet `Learning-lab` contains the project image and description. Users can approach the image to see an overlaying pop-up window with project details.
 
- ![alt text](/Screenshot/project_table.png)
+ ![Learning-lab Table Columns](/Screenshot/project_table.png)
 
- ![alt text](/Screenshot/Showroom.png])
+ ![Project Showcase](/Screenshot/Showroom.png)
 
  * Map - This scene integrates Mapbox map in the background. An Airtable data sheet `Harvard-campus` is used to generate the POI onto the map.
- ![alt text](/Screenshot/harvard_table.png)
+ ![Harvard-campus Table Columns](/Screenshot/harvard_table.png)
 
- ![alt text](/Screenshot/map.png)
+ ![Harvard Campus Map](/Screenshot/Map.png)
 
 ## Credits
 The project is built upon lipemon1's Airtable Unity Plugin examples [here](https://github.com/lipemon1/airtableunity). Huge thanks for their contributions to the open-sourced community.
