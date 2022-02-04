@@ -6,7 +6,7 @@ The `Virtual Art Gallery` scene reads from the Airtable data sheet [`Artists_sma
 
 ![Artists_small Table Columns](/Screenshot/artist_table.png)
 
-![Art Virtual Gallery](/Screenshot/Gallery.png)
+![Art Virtual Gallery](/Screenshot/Gallery.PNG)
 
 
 Tutorial Updated: `02/04/2022`
