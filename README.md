@@ -6,10 +6,7 @@ The `Virtual Art Gallery` scene reads from the Airtable data sheet [`Artists_sma
 
 ![Artists_small Table Columns](/Screenshot/artist_table.png)
 
-![Art Virtual Gallery](/Screenshot/Capture.PNG)
-
-Updating the `Artist-list` table, such as deleting one row, will change the art gallery scenes when the user hits play next time.
-![Art Virtual Gallery-update](/Screenshot/CaptureAfter.PNG)
+![Art Virtual Gallery](/Screenshot/Gallery.png)
 
 
 Tutorial Updated: `02/04/2022`
