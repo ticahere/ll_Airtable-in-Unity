@@ -62,17 +62,26 @@ If you do either step above, you will need to make change in the DownloadImage f
  
 
  ## 5. Build upon example scenes
- There are other examples provided under `Assets/Scenes` folder. You can also replace  `App Key`, `Api Key` and `Table name` in the AirTableDB object to link to your own dataset.
- * Projects Showcase - This scene shows an example of an interactive project showroom. An Airtable data sheet `Learning-lab` contains the project image and description. Users can approach the image to see an overlaying pop-up window with project details.
+ There are other examples provided under `Assets/Scenes` folder. You can replace  `App Key`, `Api Key` and `Table name` in the AirTableDB object to link to your own dataset.
+ ### **1. Projects Showcase**
+ This scene shows an example of an interactive project showroom. An Airtable data sheet `Learning-lab` contains the project image and description. Users can approach the image to see an overlaying pop-up window with project details.
 
  ![Learning-lab Table Columns](/Screenshot/project_table.png)
 
  ![Project Showcase](/Screenshot/Showroom.png)
 
- * Map - This scene integrates Mapbox map in the background. An Airtable data sheet `Harvard-campus` is used to generate the POI onto the map.
+### **2. Map**
+ This scene integrates Mapbox map in the background. An Airtable data sheet `Harvard-campus` is used to generate the POI onto the map.
  ![Harvard-campus Table Columns](/Screenshot/harvard_table.png)
 
  ![Harvard Campus Map](/Screenshot/Map.png)
+
+ ### **3. Timeline**  
+ This scene demonstrates the use of timeline. An Airtable data sheet `timeline` is used to generate key events of the Olympic Games history.
+ ![Timeline Table Columns](/Screenshot/timeline_table.png)
+
+ ![Olympic Games Timeline](/Screenshot/Timeline.png)
+
 
 ## Credits
 The project is built upon lipemon1's Airtable Unity Plugin examples [here](https://github.com/lipemon1/airtableunity). Huge thanks for their contributions to the open-sourced community.
